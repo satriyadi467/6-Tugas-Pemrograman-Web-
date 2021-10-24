@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html language="en">
+    <head>
+        <title>Form Pesanan Barang</title>
+         
+         <style>
+                 * {
+             margin: 0;
+             padding: 0;
+            }
+         </style>
+   
+   <body>
+        <header style="width: 90%; border: 1px solid black; margin: 25px auto;">
+            <table>
+                <tr>
+                    <td style="padding: 10px 70px;">HOME |</td>
+                    <td style="padding: 10px 70px;">Generate Link |</td>
+                    <td style="padding: 10px 70px;">Transaction History |</td>
+                    <td style="padding: 10px 70px;">Setting |</td>
+                    <td style="padding: 10px 70px;">Log Out |</td>
+                </tr>
+            </table>
+        </header>
+
+    <form action="Mailinglist.php" method="POST">
+
+        <main style="display:flex;">
+            <div style="width: 30%; border: cyan; margin: 20px auto;">
+
+                <figure>
+                    <img src="5.1. ROG.jpg" alt="auto" width="220" height="220">
+                </figure>
+                
+            </div>
+
+            <div style="width: 80%; margin: 30px ;padding-right: 20px auto;">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Tiitle Here</label>
+                            <input type="text">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="">Description</label></br>
+                            <textarea id="" cols="35" rows="15"></textarea>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="">Account Number</label>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+
+
+                        <td>
+                            <label for="">Bank</label>
+                        <input type="text" list="bank">
+                        <datalist id="bank">
+                            <option value="HSBC"></option>
+                            <option value="BRI"></option>
+                            <option value="BCA"></option>
+                            <option value="BNI"></option>
+                            <option value="Danamon"></option>
+                        </datalist>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                        <label for="">Account Holder</label>
+                        <input type="text">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="">Transaction</label>
+                            <input type="number" min="1" max="10">
+                        </td>
+                    </tr>
+
+
+                    <tr>    
+                        <td> <br> <br>
+                            <p>* if the transaction is for 3 person, choose 3 from the drop-down list</p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <label for="">send to handphone</label>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                            <label for="">send to email</label>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for=""></label>
+                            <input type="text">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="">Kirim ke Handphone</label>
+                            <input type="tel">
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <label for="">Kirim ke Email</label>
+                            <input type="email">
+                        </td>
+                    </tr>
+
+                    
+                    <tr ALIGN="CENTER">
+                        <td>
+                            <input type="Submit" value="Submit">
+                        </td>
+                    </tr>
+                   
+                    
+
+                </table>
+            </div>
+        </main>
+    </form>
+    </body>
+    </head>
+</html> 
